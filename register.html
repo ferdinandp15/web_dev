@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <link href="sample.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="login-form">
+    <form method="POST">
+      <h3>Enable Two-Factor Authentication</h3>
+      Country:
+      <select id="authy-countries" name="country-code"></select>
+      <br/>
+      Cellphone: <input id="authy-cellphone" type="text" value="" name="authy-cellphone" />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <link rel="stylesheet" href="../src/flags.authy.css">
+  <link rel="stylesheet" href="../src/form.authy.css">
+  <script src="../src/form.authy.js"></script>
+</body>
+</html>
